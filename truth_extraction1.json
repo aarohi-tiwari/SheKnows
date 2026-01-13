@@ -1,0 +1,151 @@
+```json
+{
+  "shadow_id": "phoenix_2024",
+  "revealed_truth": {
+    "programming_experience": "fabricated",
+    "programming_language": "none",
+    "skill_mastery": "beginner",
+    "leadership_claims": "fabricated",
+    "team_experience": "individual contributor",
+    "skills and other keywords": ["kubernetes", "devops", "yaml", "calico", "network policy", "dns"]
+  },
+  "deception_patterns": [
+    {
+      "lie_type": "experience_inflation",
+      "contradictory_claims": ["seasoned devops engineer", "summer internship, mostly watched"]
+    },
+    {
+      "lie_type": "skill_exaggeration",
+      "contradictory_claims": ["managing production clusters", "senior engineer handles network debugging"]
+    },
+    {
+      "lie_type": "role_fabrication",
+      "contradictory_claims": ["personally responsible for security", "ran scripts given by senior engineers"]
+    }
+  ]
+}
+``````json
+{
+  "shadow_id": "phoenix_2024",
+  "revealed_truth": {
+    "programming_experience": "8 years",
+    "programming_language": "CWR",
+    "skill_mastery": "advanced",
+    "leadership_claims": "genuine",
+    "team_experience": "team member",
+    "skills and other keywords": ["CWR", "backend systems", "Cosmos DB", "geo-replication", "data ingestion", "caching", "race condition"]
+  },
+  "deception_patterns": [
+    {
+      "lie_type": "role_exaggeration",
+      "contradictory_claims": ["architected entire solution", "architected specific component"]
+    }
+  ]
+}
+```
+```json
+{
+  "shadow_id": "phoenix_2024",
+  "revealed_truth": {
+    "programming_experience": "N years",
+    "programming_language": "python",
+    "skill_mastery": "intermediate",
+    "leadership_claims": "fabricated",
+    "team_experience": "team member",
+    "skills and other keywords": ["django", "celery", "database", "python"]
+  },
+  "deception_patterns": [
+    {
+      "lie_type": "role_fabrication",
+      "contradictory_claims": ["lead developer", "used existing library"]
+    },
+    {
+      "lie_type": "experience_inflation",
+      "contradictory_claims": ["built from first line of code", "used existing architecture and schema"]
+    }
+  ]
+}
+``````json
+{
+  "shadow_id": "phoenix_2024",
+  "revealed_truth": {
+    "programming_experience": "N years",
+    "programming_language": "C++",
+    "skill_mastery": "advanced",
+    "leadership_claims": "genuine",
+    "team_experience": "team member",
+    "skills and other keywords": ["C++", "low latency trading systems", "memory allocators", "kernel bypass networking", "CPU cache", "network jitter"]
+  },
+  "deception_patterns": []
+}
+```
+```json
+{
+  "shadow_id": "phoenix_2024",
+  "revealed_truth": {
+    "programming_experience": "6 years",
+    "programming_language": "Java",
+    "skill_mastery": "advanced",
+    "leadership_claims": "genuine",
+    "team_experience": "team member",
+    "skills and other keywords": ["Java", "distributed systems", "Kafka", "microservices", "service discovery", "dead letter queue", "asynchronous services", "cloud migration", "item potency"]
+  },
+  "deception_patterns": []
+}
+```
+```json
+{
+  "shadow_id": "phoenix_2024",
+  "revealed_truth": {
+    "programming_experience": "fabricated",
+    "programming_language": "Ruby on Rails",
+    "skill_mastery": "beginner",
+    "leadership_claims": "fabricated",
+    "team_experience": "individual contributor",
+    "skills and other keywords": ["Ruby on Rails", "data", "AI", "machine learning", "big data", "predictive engine", "modeling", "classification", "regression", "TensorFlow", "PyTorch", "ETL", "inference", "SMOTE", "over sampling"]
+  },
+  "deception_patterns": [
+    {
+      "lie_type": "experience_inflation",
+      "contradictory_claims": ["seasoned developer", "weekend workshop"]
+    },
+    {
+      "lie_type": "skill_exaggeration",
+      "contradictory_claims": ["proficient across modern data stack", "I don't know any of it"]
+    },
+    {
+      "lie_type": "role_fabrication",
+      "contradictory_claims": ["handles big picture and Rails integration", "works with data scientist who handles coding"]
+    }
+  ]
+}
+```
+```json
+{
+  "shadow_id": "phoenix_2024",
+  "revealed_truth": {
+    "programming_experience": "2 years",
+    "programming_language": "React",
+    "skill_mastery": "beginner",
+    "leadership_claims": "fabricated",
+    "team_experience": "individual contributor",
+    "skills and other keywords": ["React", "microfrontends", "IDE"]
+  },
+  "deception_patterns": [
+    {
+      "lie_type": "experience_inflation",
+      "contradictory_claims": ["7 years experience", "2 years experience"]
+    },
+    {
+      "lie_type": "role_fabrication",
+      "contradictory_claims": ["Lead Architect", "junior dev"]
+    },
+    {
+      "lie_type": "skill_exaggeration",
+      "contradictory_claims": ["designed and built platform from scratch", "trivial piece of code"]
+    }
+  ]
+}
+```
+
+

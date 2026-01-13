@@ -1,0 +1,39 @@
+# Agentic Flow for an AI Interviewer
+
+## STATES
+
+1. Idle/Listening – Agent is passively monitoring candidate’s behavior (speech, silence, coding activity).
+2. Active Listening – Agent is focused on capturing candidate’s reasoning (transcription, tone analysis, coding intent).
+3. Clarification Mode – Agent detects hesitation or ambiguity and asks a gentle clarification question.
+4. Guidance Mode – Agent nudges with a hint, breaks problem into smaller steps, or rephrases the question.
+5. Challenge Mode – Agent asks a harder follow-up or stress-tests candidate’s solution.
+6. Reflection Mode – Agent prompts candidate to explain trade-offs, optimize, or review their own solution.
+7. Wrap-up Mode – Agent summarizes performance, asks final reflection questions, and ends interview.
+
+## SIGNALS / EVENTS DETECTED
+
+* Continuous Speech -> Candidate is explaining confidently.
+* Silence > N seconds -> Candidate is stuck.
+* Hesitation markers -> "uhm", pauses, backtracking in code, uncertain tone.
+* Code errors / failed tests -> Candidate’s code doesn’t compile or fails test cases.
+* Correct solution -> Candidate produces a working and efficient solution.
+* Overconfidence / rushing -> Candidate finishes quickly, may skip reasoning.
+
+## ACTIONS
+
+* Stay Silent -> Let candidate continue uninterrupted.
+* Encourage -> "Take your time, think aloud."
+* Clarify -> "Could you walk me through your approach again?"
+* Nudge -> "What happens in the worst case for your algorithm?"
+* Challenge -> "How would you optimize this for larger inputs?"
+* De-escalate -> If candidate is stressed, reassure them.
+* Summarize -> Provide a wrap-up of performance and next steps.
+
+## TECHNIQUES TO ENABLE DECISION-MAKING
+
+* Speech & Voice Analysis -> Detect silence, hesitation, confidence from tone.
+* NLP Understanding -> Track reasoning, problem breakdown, and clarity of explanation.
+* Code Execution Monitoring -> Real-time compilation/test feedback to detect success/failure.
+* Reinforcement Learning (RL) -> Train agent on expert interviewer strategies: when to stay silent vs. intervene.
+* State Machine + Probabilistic Triggers -> Model transitions (e.g., >10s silence -> Clarification Mode).
+* Context Memory -> Keep track of past candidate performance to adjust difficulty or guidance.
